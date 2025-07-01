@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: #26282e;
+  --text-color: #209781;
+  --main-color: #E9B64A;
+  --gray-color: #777777;
+}
+
+body {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 2rem;
+}
+
+a {
+  transition: color 0.2s;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main-color);
+}
+
+header h1 {
+    margin: 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-bottom: 25px;
+}
+
+.board {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 50px auto;
+  gap: 20px;
+}
+
+.board-win {
+  display: flex;
+  justify-content: center;
+}
+
+.card-active {
+  width: 125px;
+  height: 125px;
+  background-image: url("../img/card.png");
+  background-position: center;
+  border: 3px solid var(--main-color);
+  border-radius: 2px;
+  filter: brightness(100%);
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+}
+
+.card {
+  width: 125px;
+  height: 125px;
+  background-image: url("../img/card.png");
+  background-position: center;
+  border: 3px solid var(--gray-color);
+  border-radius: 2px;
+  filter: brightness(55%);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  border: 3px solid var(--main-color);
+  filter: brightness(100%);
+}
+
+.score p {
+  color: var(--text-color);
+}
+
+.score span {
+  color: var(--main-color);
+}
+
+.reload {
+  margin-top: 5px;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+}
+
+.reload:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}

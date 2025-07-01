@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gwent Memory Game</h1>
+        <p>Inspired by <a href="https://www.playgwent.com/pl" target="_blank">Gwent - The Witcher Card Game</a></p>
+    </header>
+
+    <main>
+        <article>
+            <div class="board">
+                <div class="card" id="card0" onclick="revealCard(0)"></div>
+                <div class="card" id="card1" onclick="revealCard(1)"></div>
+                <div class="card" id="card2" onclick="revealCard(2)"></div>
+                <div class="card" id="card3" onclick="revealCard(3)"></div>
+                <div class="card" id="card4" onclick="revealCard(4)"></div>
+                <div class="card" id="card5" onclick="revealCard(5)"></div>
+                <div class="card" id="card6" onclick="revealCard(6)"></div>
+                <div class="card" id="card7" onclick="revealCard(7)"></div>
+                <div class="card" id="card8" onclick="revealCard(8)"></div>
+                <div class="card" id="card9" onclick="revealCard(9)"></div>
+                <div class="card" id="card10" onclick="revealCard(10)"></div>
+                <div class="card" id="card11" onclick="revealCard(11)"></div>
+            </div>
+            <div class="score"><p>Turn counter: <span class="counter">0</span></p></div>
+        </article>
+    </main>
+    
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
