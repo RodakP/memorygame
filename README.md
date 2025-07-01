@@ -9,6 +9,10 @@
 </p>
 </div>
 
-![Screenshot 2025-07-01 at 17-35-0](https://github.com/user-attachments/assets/0619770d-695f-4c72-bbc0-6d9e262e44c6)
+
+<p align="center">
+    ![Screenshot 2025-07-01 at 17-35-0](https://github.com/user-attachments/assets/03f5c7ee-08d1-4944-a993-58cd12276f9f)
+</p>
+
 
 application made with <a href="https://miroslawzelent.pl/">Miroslaw Zelent</a> help.
